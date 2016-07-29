@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ecf112d-62be-47bb-aaaa-c0c211bf2630" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skills.html" />
+    <list default="true" id="4ecf112d-62be-47bb-aaaa-c0c211bf2630" name="Default" comment="Fix outdated information">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="nickwhite917.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -328,12 +326,20 @@
       <workItem from="1465265295174" duration="731000" />
       <workItem from="1469799270877" duration="2022000" />
       <workItem from="1469811869289" duration="599000" />
-      <workItem from="1469819947257" duration="688000" />
+      <workItem from="1469819947257" duration="827000" />
     </task>
+    <task id="LOCAL-00001" summary="Fix outdated information">
+      <created>1469820652684</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1469820652685</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4040000" />
+    <option name="totallyTimeSpent" value="4179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1924" y="199" width="1928" height="1088" extended-state="6" />
@@ -357,6 +363,24 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -367,6 +391,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix outdated information" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix outdated information" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
