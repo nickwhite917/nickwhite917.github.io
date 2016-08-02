@@ -591,6 +591,27 @@ i:hover{
   -o-background-size: cover;
   background-size: cover;
 }
+.bg-skills-relationaldb {
+  background: url('../img/relationaldb.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-skills-nosqldb {
+  background: url('../img/nosqldb.jpeg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-skills-distributed {
+  background: url('../img/distributed.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .separ {
   margin-top: 50px;
 }
