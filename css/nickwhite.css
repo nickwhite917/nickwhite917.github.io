@@ -383,7 +383,7 @@ p.extend-details {
   margin-bottom: 50px;
 }
 i:hover{
-  color: #0A246A;
+  color: white;
 }
 
 
@@ -570,6 +570,27 @@ i:hover{
   -o-background-size: cover;
   background-size: cover;
 }
+.bg-skills-frontend {
+  background: url('../img/frontend.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-skills-backend {
+  background: url('../img/backend.jpeg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-skills-desktopmobile {
+  background: url('../img/desktopmobile.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .separ {
   margin-top: 50px;
 }
@@ -685,13 +706,13 @@ i:hover{
   padding-top: 11px;
   padding-bottom: 18px;
 }
-.expert {
+.advanced {
   font-size: 20px;
   padding-bottom: 18px;
   padding-top: 11px;
   color: #EC0856;
 }
-.advanced {
+.proficient {
   font-size: 20px;
   padding-bottom: 18px;
   padding-top: 11px;
@@ -2461,7 +2482,7 @@ h1.jprt-item-title {
     font-weight: 400;
     text-align: center;
   }
-  .expert, .advanced {
+  .advanced, .proficient {
     font-size: 18px;
     padding-bottom: 18px;
     padding-top: 14px;
@@ -2588,7 +2609,7 @@ h1.jprt-item-title {
   .separ {
     margin-top: 30px;
   }
-  .advanced, .expert{
+  .proficient, .advanced {
     font-size: 15px;
     padding-bottom: 18px;
     padding-top: 16px;
