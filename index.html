@@ -10,7 +10,8 @@
     <link href="http://fonts.googleapis.com/css?family=Roboto:500,400italic,100,300,700,100italic,300italic,400"
           rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/nickwhite.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/nickwhite.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -234,36 +235,53 @@
 </section>
 <!-- // About Me Context -->
 <!-- About Me Recent -->
-<section class="full-section my-about">
+<section id="recentWork" class="cd-intro-2">
+    <style type="text/css">
+        #about {
+            height: 400px;
+            max-height: 400px;
+        }
+    </style>
     <!-- Top About me -->
     <article class="container">
         <div class="row">
             <!-- Text about me -->
             <div class="col-md-6">
-                <h2 class="title-main">Recent Work.</h2>
-                <p class="text-main">
+                <h1 class="title-main" style="text-align: left;">Recent Work.</h1>
+                <p class="text-main" style="text-align: left;">
                     We placed first in the 2016 Cleveland State University Engineering Senior Design Competition.
                     <br>
-                    <a href="http://www.csuohio.edu/engineering/eecs/eecs/">Frontpage of EECS News</a>
+                    <div class="col-md-8">
+                        <h3 style="text-align: left;">Frontpage of EECS News</h3>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="http://www.csuohio.edu/engineering/eecs/eecs/" style="color: white;">
+                            <i class="fa fa-4x fa-newspaper-o" aria-hidden="true"></i>
+                        </a>
+                    </div>
+
                     <br>
-                    <a href="https://www.csuohio.edu/engineering/multidisciplinary-cerebro-project-takes-first-place-senior-design-symposium">Full
-                        article</a>
-                    <br>
-                    Full description of the <strong>Cerebro</strong> platform
-                    coming soon!
-                </p>
+                <div class="col-md-8">
+                    <h3 style="text-align: left;">Full Article</h3>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.csuohio.edu/engineering/multidisciplinary-cerebro-project-takes-first-place-senior-design-symposium" style="color: white;">
+                        <i class="fa fa-4x fa-file-text" aria-hidden="true"></i>
+                    </a>
+                </div>
             </div>
             <!-- Image right about me -->
             <div class="col-md-6">
-                <img class="img-responsive" src="img/cerebro.jpg" alt="Cerebro Project">
-                <p class="">“These projects demonstrate the incredible ingenuity of our students, and the tremendous
+
+                <a href="https://www.csuohio.edu/engineering/multidisciplinary-cerebro-project-takes-first-place-senior-design-symposium">
+                <img class="img-responsive pull-right" src="img/eecs.jpg" alt="Cerebro Project">
+                </a>
+                <p class="lead">“These projects demonstrate the incredible ingenuity of our students, and the tremendous
                     impact their ideas can have on society.”</p>
                 <p> - Washkewicz College of Engineering Dean Anette Karlsson</p>
             </div>
         </div>
     </article>
-    <!-- // Top About me -->
-    <br>
 </section>
 <!-- // About Me Recent -->
 <!-- About Me Gallery -->
@@ -530,7 +548,7 @@
 </section>
 <!-- // Skills and abilities -->
 <!-- Skills and abilities -->
-<section id="skills" class="full-section-two bg-skills">
+<section id="frontend" class="full-section-two bg-skills">
     <div class="container">
         <!-- Text Skills and Abilities -->
         <h2 class="title-main mywhite">Frontend Web</h2>

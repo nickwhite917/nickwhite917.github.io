@@ -373,6 +373,20 @@ p.extend-details {
   color: #fff;
   margin-bottom: 50px;
 }
+.cd-intro-2 {
+  text-align: left;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: #EC0856;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+}
+i:hover{
+  color: #0A246A;
+}
+
+
 .cd-headline.letters.type {
   font-size: 55px;
   font-weight: 100;
