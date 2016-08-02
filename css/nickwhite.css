@@ -45,7 +45,7 @@ header {
   bottom: 0;
   right: 0;
   left: 0;
-  background: url('../img/bg_head.png') no-repeat center center;
+  background: url('../img/backgrounds/bg_head.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -550,7 +550,7 @@ p.extend-details {
   padding-bottom: 60px;
 }
 .bg-skills {
-  background: url('../img/bg_skills.png') no-repeat center center;
+  background: url('../img/backgrounds/bg_skills.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1178,7 +1178,7 @@ p.extend-details {
 
 ------------------------------------- */
 .bg-work {
-  background: url('../img/bg_work.png') no-repeat center center;
+  background: url('../img/backgrounds/bg_work.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1973,7 +1973,7 @@ h1.jprt-item-title {
 ------------------------------------- */
 
 .bg-contact {
-  background: url('../img/bg_contact.png') no-repeat center center;
+  background: url('../img/backgrounds/bg_contact.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
