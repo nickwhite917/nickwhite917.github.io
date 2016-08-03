@@ -33,7 +33,7 @@
             insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js';
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(insp, x);
-        };
+        }
         setTimeout(ldinsp, 500);
         document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
     })();
@@ -98,7 +98,7 @@
                                class="menu-item wall">Recent Work</a></li>
                         <li><a data-scroll data-options='{ "easing": "easeOutQuint" }' href="#skills"
                                class="menu-item wall">Skills and Interests</a></li>
-                         <li><a data-scroll data-options='{ "easing": "easeOutQuint" }' href="#education"
+                        <li><a data-scroll data-options='{ "easing": "easeOutQuint" }' href="#education"
                                class="menu-item wall">Education</a></li>
                         <li><a data-scroll data-options='{ "easing": "easeOutQuint" }' href="#work"
                                class="menu-item wall">Work Experience</a></li>
@@ -252,16 +252,20 @@
                 <div class="col-sm-12">
                     <h1 class="title-main" style="text-align: left;">Recent Work.</h1>
                     <p class="text-main" style="text-align: left;">
-                        We placed first in the 2016 Cleveland State University Engineering Senior Design Competition (out of > 300 engineers).
+                        We placed first in the 2016 Cleveland State University Engineering Senior Design Competition
+                        (out of > 300 engineers).
                     </p>
                 </div>
-                    <div class="col-sm-6 btn-class hidden-xs hidden-xs">
-                        <a style="font-size: 16px;" class="btn-dwnld" href="http://www.csuohio.edu/engineering/eecs/eecs/" target="_blank">EECS Front Page</a>
-                    </div>
+                <div class="col-sm-6 btn-class hidden-xs hidden-xs">
+                    <a style="font-size: 18px;" class="btn-dwnld" href="http://www.csuohio.edu/engineering/eecs/eecs/"
+                       target="_blank">EECS Front Page</a>
+                </div>
 
-                    <div class="col-sm-6 btn-class hidden-xs hidden-xs">
-                        <a style="font-size: 16px;" class="btn-dwnld" href="https://www.csuohio.edu/engineering/multidisciplinary-cerebro-project-takes-first-place-senior-design-symposium" target="_blank">Full Article</a>
-                    </div>
+                <div class="col-sm-6 btn-class hidden-xs hidden-xs">
+                    <a style="font-size: 18px;" class="btn-dwnld"
+                       href="https://www.csuohio.edu/engineering/multidisciplinary-cerebro-project-takes-first-place-senior-design-symposium"
+                       target="_blank">Full Article</a>
+                </div>
 
             </div>
             <!-- Image right about me -->
@@ -272,7 +276,8 @@
                     </a>
                 </div>
                 <div class="col-sm-12">
-                    <p class="lead">“These projects demonstrate the incredible ingenuity of our students, and the tremendous
+                    <p class="lead">“These projects demonstrate the incredible ingenuity of our students, and the
+                        tremendous
                         impact their ideas can have on society.”</p>
                     <p> - Washkewicz College of Engineering Dean Anette Karlsson</p>
                 </div>
@@ -509,11 +514,11 @@
 </section>
 <!-- // Skills and abilities -->
 <!-- Frontend Skills -->
-<section id="frontend"  class="full-section-two bg-skills-frontend">
+<section id="frontend" class="full-section-two bg-skills-frontend">
     <div class="container">
         <!-- Text Skills and Abilities -->
-        <h2 class="title-main mywhite">Frontend Web</h2>
-        <p class="text-main mywhite">Always on the bleeding-edge of frontend technologies.</p>
+        <h2 class="title-main mywhite" style="text-align: right">Frontend Web</h2>
+        <p class="text-main mywhite" style="text-align: right">Always on the bleeding-edge of frontend technologies.</p>
     </div>
     <!-- Abilities -->
     <div class="container cont-mg">
@@ -527,22 +532,22 @@
                         <div class="col-xs-2"><img class="img-soft" alt="npm"
                                                    src="img/npm.png">
                         </div>
-                        <div class="col-xs-5 ability">NPM</div>
-                        <div class="col-xs-5 advanced">PROFICIENT</div>
+                        <div class="col-xs-5 ability">Angular</div>
+                        <div class="col-xs-5 advanced">ADVANCED</div>
                     </div>
                     <!-- Software Abilitie 2 -->
                     <div class="row">
                         <div class="col-xs-2"><img class="img-soft" alt="React" src="img/gulp.png">
                         </div>
-                        <div class="col-xs-5 ability">Gulp</div>
-                        <div class="col-xs-5 proficient">LEARNING</div>
+                        <div class="col-xs-5 ability">Gulp, NPM, Bower</div>
+                        <div class="col-xs-5 proficient">PROFICIENT</div>
                     </div>
                     <!-- Software Abilitie 3 -->
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="Build tools" src="img/bower.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="Build tools" src="img/react.png">
                         </div>
-                        <div class="col-xs-5 ability">Bower</div>
-                        <div class="col-xs-5 advanced">PROFICIENT</div>
+                        <div class="col-xs-5 ability">React Redux</div>
+                        <div class="col-xs-5 proficient">LEARNING</div>
                     </div>
                     <!-- Software Abilitie 4 -->
                     <div class="row">
@@ -573,11 +578,12 @@
 </section>
 <!-- // Skills and abilities -->
 <!-- Frontend Skills -->
-<section id="backend"  class="full-section-two bg-skills-backend">
+<section id="backend" class="full-section-two bg-skills-backend">
     <div class="container">
         <!-- Text Skills and Abilities -->
-        <h2 class="title-main mywhite" style="text-align: right;">Backend Web</h2>
-        <p class="text-main mywhite" style="text-align: right;">Delivering RESTful APIs, Data Access Logic, and Reliable Data Transfer.</p>
+        <h2 class="title-main mywhite">Backend Web</h2>
+        <p class="text-main mywhite">Delivering RESTful APIs, Data Access Logic, and Reliable
+            Data Transfer.</p>
     </div>
     <!-- Abilities -->
     <div class="container cont-mg">
@@ -589,28 +595,28 @@
                     <!-- Software Abilitie 1 -->
                     <div class="row">
                         <div class="col-xs-2"><img class="img-soft" alt="npm"
-                                                   src="img/npm.png">
+                                                   src="img/nodejs.png">
                         </div>
                         <div class="col-xs-5 ability">Node.js</div>
                         <div class="col-xs-5 proficient">PROFICIENT</div>
                     </div>
                     <!-- Software Abilitie 2 -->
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="React" src="img/gulp.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="React" src="img/net.png">
                         </div>
                         <div class="col-xs-5 ability">ASP.NET MVC</div>
                         <div class="col-xs-5 advanced">ADVANCED</div>
                     </div>
                     <!-- Software Abilitie 3 -->
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="Build tools" src="img/bower.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="Build tools" src="img/rest.png">
                         </div>
                         <div class="col-xs-5 ability">REST APIs</div>
                         <div class="col-xs-5 advanced">ADVANCED</div>
                     </div>
                     <!-- Software Abilitie 4 -->
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/design.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/data.jpg">
                         </div>
                         <div class="col-xs-5 ability">Data Access Logic</div>
                         <div class="col-xs-5 advanced">ADVANCED</div>
@@ -637,11 +643,11 @@
 </section>
 <!-- // Skills and abilities -->
 <!-- Frontend Skills -->
-<section id="desktopmobile"  class="full-section-two bg-skills-desktopmobile">
+<section id="desktopmobile" class="full-section-two bg-skills-desktopmobile">
     <div class="container">
         <!-- Text Skills and Abilities -->
-        <h2 class="title-main mywhite">Desktop & Mobile</h2>
-        <p class="text-main mywhite">Native development on mobile and desktop devices.</p>
+        <h2 class="title-main mywhite" style="text-align: right">Desktop & Mobile</h2>
+        <p class="text-main mywhite" style="text-align: right">Native development on mobile and desktop devices.</p>
     </div>
     <!-- Abilities -->
     <div class="container cont-mg">
@@ -653,28 +659,28 @@
                     <!-- Software Abilitie 1 -->
                     <div class="row">
                         <div class="col-xs-2"><img class="img-soft" alt="npm"
-                                                   src="img/npm.png">
+                                                   src="img/electron.png">
                         </div>
                         <div class="col-xs-5 ability">Electron</div>
                         <div class="col-xs-5 advanced">ADVANCED</div>
                     </div>
                     <!-- Software Abilitie 2 -->
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="React" src="img/gulp.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="React" src="img/ionic.png">
                         </div>
                         <div class="col-xs-5 ability">Ionic</div>
                         <div class="col-xs-5 proficient">PROFICIENT</div>
                     </div>
                     <!-- Software Abilitie 3 -->
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="Build tools" src="img/bower.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="Build tools" src="img/swift.jpg">
                         </div>
                         <div class="col-xs-5 ability">Swift</div>
                         <div class="col-xs-5 proficient">PROFICIENT</div>
                     </div>
                     <!-- Software Abilitie 4 -->
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/design.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/android.png">
                         </div>
                         <div class="col-xs-5 ability">Android / Java</div>
                         <div class="col-xs-5 proficient">PROFICIENT</div>
@@ -701,7 +707,7 @@
 </section>
 <!-- // Skills and abilities -->
 <!-- Frontend Skills -->
-<section id="relationaldb"  class="full-section-two bg-skills-relationaldb">
+<section id="relationaldb" class="full-section-two bg-skills-relationaldb">
     <div class="container">
         <!-- Text Skills and Abilities -->
         <h2 class="title-main mywhite">Relational Databases</h2>
@@ -717,40 +723,40 @@
                     <!-- Software Abilitie 1 -->
                     <div class="row">
                         <div class="col-xs-2"><img class="img-soft" alt="npm"
-                                                   src="img/npm.png">
+                                                   src="img/postgres.png">
                         </div>
                         <div class="col-xs-5 ability">PostgreSQL</div>
                         <div class="col-xs-5 advanced">ADVANCED</div>
                     </div>
                     <!-- Software Abilitie 2 -->
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="React" src="img/gulp.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="React" src="img/mysql.png">
                         </div>
                         <div class="col-xs-5 ability">MySQL</div>
                         <div class="col-xs-5 advanced">ADVANCED</div>
                     </div>
                     <!-- Software Abilitie 3 -->
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="Build tools" src="img/bower.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="Build tools" src="img/sqlserver.png">
                         </div>
                         <div class="col-xs-5 ability">Microsoft SQL Server</div>
                         <div class="col-xs-5 advanced">ADVANCED</div>
                     </div>
                     <!-- Software Abilitie 4 -->
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/design.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/oracle.png">
                         </div>
                         <div class="col-xs-5 ability">Oracle</div>
                         <div class="col-xs-5 advanced">ADVANCED</div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/design.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/db2.png">
                         </div>
                         <div class="col-xs-5 ability">IBM DB2</div>
                         <div class="col-xs-5 advanced">ADVANCED</div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/design.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/sqlite.jpg">
                         </div>
                         <div class="col-xs-5 ability">SQLite</div>
                         <div class="col-xs-5 proficient">PROFICIENT</div>
@@ -777,11 +783,12 @@
 </section>
 <!-- // Skills and abilities -->
 <!-- Frontend Skills -->
-<section id="distributed"  class="full-section-two bg-skills-distributed">
+<section id="distributed" class="full-section-two bg-skills-distributed">
     <div class="container">
         <!-- Text Skills and Abilities -->
         <h2 class="title-main mywhite" style="text-align: right">Distributed & Cloud Computing</h2>
-        <p class="text-main mywhite" style="text-align: right;">Building distributed software solutions on multiple platforms.</p>
+        <p class="text-main mywhite" style="text-align: right;">Building distributed software solutions on multiple
+            platforms.</p>
     </div>
     <!-- Abilities -->
     <div class="container cont-mg">
@@ -793,58 +800,58 @@
                     <!-- Software Abilitie 1 -->
                     <div class="row">
                         <div class="col-xs-2"><img class="img-soft" alt="npm"
-                                                   src="img/npm.png">
+                                                   src="img/ec2.jpg">
                         </div>
                         <div class="col-xs-5 ability">AWS EC2</div>
                         <div class="col-xs-5 advanced">ADVANCED</div>
                     </div>
                     <!-- Software Abilitie 2 -->
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="React" src="img/gulp.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="React" src="img/s3.png">
                         </div>
                         <div class="col-xs-5 ability">AWS S3</div>
                         <div class="col-xs-5 advanced">ADVANCED</div>
                     </div>
                     <!-- Software Abilitie 3 -->
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="Build tools" src="img/bower.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="Build tools" src="img/elb.png">
                         </div>
                         <div class="col-xs-5 ability">AWS ELB</div>
-                        <div class="col-xs-5 ADVANCED">ADVANCED</div>
+                        <div class="col-xs-5 advanced">ADVANCED</div>
                     </div>
                     <!-- Software Abilitie 4 -->
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/design.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/aws.png">
                         </div>
                         <div class="col-xs-5 ability">AWS EBS</div>
                         <div class="col-xs-5 advanced">ADVANCED</div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/design.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/dynamo.png">
                         </div>
                         <div class="col-xs-5 ability">AWS RDS and Dynamo</div>
                         <div class="col-xs-5 advanced">ADVANCED</div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/design.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/awsarch.png">
                         </div>
                         <div class="col-xs-5 ability">AWS Architecture</div>
                         <div class="col-xs-5 advanced">ADVANCED</div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/design.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/azureweb.png">
                         </div>
                         <div class="col-xs-5 ability">Azure Web Applications</div>
                         <div class="col-xs-5 proficient">PROFICIENT</div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/design.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/azurestorage.png">
                         </div>
                         <div class="col-xs-5 ability">Azure Storage</div>
                         <div class="col-xs-5 proficient">PROFICIENT</div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/design.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/azuresql.png">
                         </div>
                         <div class="col-xs-5 ability">Azure SQL Databases</div>
                         <div class="col-xs-5 proficient">PROFICIENT</div>
@@ -860,7 +867,9 @@
                         <div class="col-md-12 text-awsm">Main focus of my research currently</div>
                         <div class="col-md-12 text-awsm">Currently studying for AWS Certified Architect</div>
                         <div class="col-md-12 text-awsm">Scalability at the heart of every application</div>
-                        <div class="col-md-12 text-awsm">Have deployed fault tolerant distributed systems on both platforms</div>
+                        <div class="col-md-12 text-awsm">Have deployed fault tolerant distributed systems on both
+                            platforms
+                        </div>
                     </div>
                     <!-- // Awesome Abilities -->
                 </div>
@@ -871,7 +880,7 @@
 </section>
 <!-- // Skills and abilities -->
 <!-- Frontend Skills -->
-<section id="nosqldb"  class="full-section-two bg-skills-nosqldb">
+<section id="nosqldb" class="full-section-two bg-skills-nosqldb">
     <div class="container">
         <!-- Text Skills and Abilities -->
         <h2 class="title-main mywhite">NoSQL Databases</h2>
@@ -887,43 +896,43 @@
                     <!-- Software Abilitie 1 -->
                     <div class="row">
                         <div class="col-xs-2"><img class="img-soft" alt="npm"
-                                                   src="img/npm.png">
+                                                   src="img/rethink.jpg">
                         </div>
                         <div class="col-xs-5 ability">RethinkDb</div>
                         <div class="col-xs-5 advanced">ADVANCED</div>
                     </div>
                     <!-- Software Abilitie 2 -->
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="React" src="img/gulp.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="React" src="img/mongodb.png">
                         </div>
                         <div class="col-xs-5 ability">MongoDb</div>
                         <div class="col-xs-5 advanced">ADVANCED</div>
                     </div>
                     <!-- Software Abilitie 3 -->
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="Build tools" src="img/bower.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="Build tools" src="img/redis.png">
                         </div>
                         <div class="col-xs-5 ability">Redis</div>
-                        <div class="col-xs-5 ADVANCED">ADVANCED</div>
+                        <div class="col-xs-5 advanced">ADVANCED</div>
                     </div>
                     <!-- Software Abilitie 4 -->
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/design.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/elastic.png">
                         </div>
                         <div class="col-xs-5 ability">Elasticsearch (Search engine)</div>
-                        <div class="col-xs-5 advanced">ADVANCED</div>
+                        <div class="col-xs-5 proficient">LEARNING</div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/design.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/neo.png">
                         </div>
                         <div class="col-xs-5 ability">Neo4j</div>
-                        <div class="col-xs-5 advanced">ADVANCED</div>
+                        <div class="col-xs-5 proficient">LEARNING</div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/design.png">
+                        <div class="col-xs-2"><img class="img-soft" alt="" src="img/dynamo2.png">
                         </div>
                         <div class="col-xs-5 ability">DynamoDb</div>
-                        <div class="col-xs-5 proficient">PROFICIENT</div>
+                        <div class="col-xs-5 advanced">ADVANCED</div>
                     </div>
                 </div>
             </div>
@@ -1119,8 +1128,8 @@
                                                                                                    src="img/portfolio/7.PNG"
                                                                                                    alt="my item 7"/></a>
             </li>
-            <li class="col-md-3 doblock"><a href="img/portfolio/7.PNG" data-imagelightbox="b"><img class="wall-gallery"
-                                                                                                   src="img/portfolio/7.PNG"
+            <li class="col-md-3 doblock"><a href="img/portfolio/8.PNG" data-imagelightbox="b"><img class="wall-gallery"
+                                                                                                   src="img/portfolio/8.PNG"
                                                                                                    alt="my item 7"/></a>
             </li>
         </ul>
@@ -1141,6 +1150,7 @@
             <!-- Download Resume - CV -->
             <div class="col-sm-5 btn-class hidden-sm hidden-xs">
                 <a class="btn-dwnld" href="files/resume.pdf" target="_blank">Download Resume</a>
+                <p style="color: white;">Last Updated: 2015 (Outdated, under maintenance)</p>
             </div>
         </div>
     </div>

@@ -571,42 +571,42 @@ i:hover{
   background-size: cover;
 }
 .bg-skills-frontend {
-  background: url('../img/frontend.jpg') no-repeat center center;
+  background: url('../img/backgrounds/bg_header.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .bg-skills-backend {
-  background: url('../img/backend.jpeg') no-repeat center center;
+  background: url('../img/backgrounds/bg_work.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .bg-skills-desktopmobile {
-  background: url('../img/desktopmobile.jpg') no-repeat center center;
+  background: url('../img/backgrounds/bg_contact.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .bg-skills-relationaldb {
-  background: url('../img/relationaldb.jpg') no-repeat center center;
+  background: url('../img/backgrounds/bg_head.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .bg-skills-nosqldb {
-  background: url('../img/nosqldb.jpeg') no-repeat center center;
+  background: url('../img/backgrounds/bg_work.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .bg-skills-distributed {
-  background: url('../img/distributed.jpg') no-repeat center center;
+  background: url('../img/backgrounds/bg_header.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -719,6 +719,8 @@ i:hover{
 .img-soft {
   margin-top: 10px;
   margin-bottom: 15px;
+  max-width: 60px;
+  max-height: 60px;
 }
 .ability {
   font-size: 20px;
