@@ -31,7 +31,7 @@ $(document).ready(function () {
 	$("#button").click(function (e) {
 		if (validateForm()) {
 			e.preventDefault();
-			console.log("Sending email!")
+            console.log("Sending email!");
 			$.ajax({
 				type: "POST",
 				url: "http://formspree.io/nickwhite917@yahoo.com",

@@ -373,6 +373,20 @@ p.extend-details {
   color: #fff;
   margin-bottom: 50px;
 }
+.cd-intro-2 {
+  text-align: left;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: #EC0856;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+}
+i:hover{
+  color: white;
+}
+
+
 .cd-headline.letters.type {
   font-size: 55px;
   font-weight: 100;
@@ -556,6 +570,48 @@ p.extend-details {
   -o-background-size: cover;
   background-size: cover;
 }
+.bg-skills-frontend {
+  background: url('../img/backgrounds/bg_header.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-skills-backend {
+  background: url('../img/backgrounds/bg_work.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-skills-desktopmobile {
+  background: url('../img/backgrounds/bg_contact.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-skills-relationaldb {
+  background: url('../img/backgrounds/bg_head.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-skills-nosqldb {
+  background: url('../img/backgrounds/bg_work.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-skills-distributed {
+  background: url('../img/backgrounds/bg_header.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .separ {
   margin-top: 50px;
 }
@@ -663,6 +719,8 @@ p.extend-details {
 .img-soft {
   margin-top: 10px;
   margin-bottom: 15px;
+  max-width: 60px;
+  max-height: 60px;
 }
 .ability {
   font-size: 20px;
@@ -671,13 +729,13 @@ p.extend-details {
   padding-top: 11px;
   padding-bottom: 18px;
 }
-.expert {
+.advanced {
   font-size: 20px;
   padding-bottom: 18px;
   padding-top: 11px;
   color: #EC0856;
 }
-.advanced {
+.proficient {
   font-size: 20px;
   padding-bottom: 18px;
   padding-top: 11px;
@@ -2447,7 +2505,7 @@ h1.jprt-item-title {
     font-weight: 400;
     text-align: center;
   }
-  .expert, .advanced {
+  .advanced, .proficient {
     font-size: 18px;
     padding-bottom: 18px;
     padding-top: 14px;
@@ -2574,7 +2632,7 @@ h1.jprt-item-title {
   .separ {
     margin-top: 30px;
   }
-  .advanced, .expert{
+  .proficient, .advanced {
     font-size: 15px;
     padding-bottom: 18px;
     padding-top: 16px;
