@@ -14,10 +14,41 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+	<style>
+		/* This only works with JavaScript, 
+		   if it's not present, don't show loader */
+		
+		.no-js #loader {
+			display: none;
+		}
+		
+		.js #loader {
+			display: block;
+			position: absolute;
+			left: 100px;
+			top: 0;
+		}
+	</style>
+
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
+
+	<script src="https://github.com/Modernizr/Modernizr/raw/master/modernizr.js"></script>
+	<script>
+		// Wait for window load
+		$(window).load(function() {
+			// Animate loader off screen
+			$("#loader").animate({
+				top: -200
+			}, 1500);
+		});
+	</script>
 </head>
 
 <body>
-
+	<img src="download.png" id="loader">
 	<!-- Wrapper -->
 	<div id="wrapper">
 
@@ -34,26 +65,25 @@
 			<!-- Content -->
 			<section id="content" class="main">
 				<span class="image main"><img src="images/pres.jpg" alt="" /></span>
-				<h2>Magna feugiat lorem</h2>
-				<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet
-					dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur
-					id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus
-					ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis fames ac ante ipsum
-					primis in faucibus.</p>
-				<p>Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit
-					amet. Consequat leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis
-					elit enim turpis lorem ipsum dolor sit amet feugiat. Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-					turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem,
-					sit amet est velit quis lorem.</p>
-				<h2>Tempus veroeros</h2>
-				<p>Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit
-					accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus
-					enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida
-					placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies
-					blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing
-					ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur
-					ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper
-					commodo massa arcu.</p>
+				<h2>About the project</h2>
+				<p>This software system is a multi-component system designed for local law enforcement to use throughout an urban city in
+					order to detect crime and track suspects in real-time. This system is designed to maximize the efficiency of law enforcement
+					by providing an intelligent security system that eliminates many of the issues that exist with the current model of
+					police work. By allowing law enforcement to track suspects as they flee a scene, a more focused response from law enforcement
+					will result. This will, in turn, aid law enforcement in yielding more arrests, which leads to a lesser number of repeat
+					offenders, and a safer community.</p>
+				<p>
+					More specifically, this system is designed to allow police officers to view, manage, and respond to events (dubbed ‘chases’)
+					as they happen in real-time, as opposed to the current model which forces police to respond only after an event has
+					been reported (which can be quite some time after). The software facilitates communication between the already existing
+					security cameras located throughout a city and a multi-user, multi-camera tracking algorithm. By linking these two with
+					a web, mobile, and desktop facing client, the full utility of the algorithm can be reached since users will be able
+					to interact with the system, adapting its decisions in real-time and adding human common-sense to the decisionmaking
+					process.
+				</p>
+				<h2>Final Poster &amp; Paper</h2>
+				<a class="btn btn-default btn-lg" href="files/Cerebro Poster v3.pdf">Cerebro Poster.pdf</a> <br>
+				<a class="btn btn-default btn-lg" href="files/Final Report ASaaS.pdf">Final Report ASaaS.pdf</a>
 			</section>
 
 		</div>
@@ -62,10 +92,10 @@
 		<footer id="footer">
 			<section>
 				<h2>Parting Thoughts</h2>
-				<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget
-					dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+				<p>If you found this to be interesting, please visit my home page and contact me! I would love to work on a project with
+					you.</p>
 				<ul class="actions">
-					<li><a href="presentation.html" class="button">Learn More</a></li>
+					<li><a href="index.html#contacto" class="button">Home</a></li>
 				</ul>
 			</section>
 			<section>
