@@ -500,7 +500,7 @@ i:hover{
   font-weight: 400;
 }
 .my-extrame {
-  background-color: #F9F9F9;
+  background-color: #EC0856;
   padding-top: 50px;
   padding-bottom: 50px;
   margin-top: 50px;
@@ -565,6 +565,13 @@ i:hover{
 }
 .bg-skills {
   background: url('../img/backgrounds/bg_skills.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-mission {
+  background: url('../img/backgrounds/bg_work.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2727,4 +2734,14 @@ h1.jprt-item-title {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
+}
+.italic {
+  font-style: italic;
+}
+.bold {
+  font-weight: bold;
+}
+.filter {
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
 }
